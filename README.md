@@ -27,15 +27,9 @@ The only things added to it were:
         <generatorName>spring</generatorName>
         <output>${project.basedir}</output>
         <generateModelTests>false</generateModelTests>
-        <generateModelDocumentation>false</generateModelDocumentation>
         <generateApiTests>false</generateApiTests>
-        <generateApiDocumentation>false</generateApiDocumentation>
         <supportingFilesToGenerate>ApiUtil.java,HomeController.java,SpringDocConfiguration.java</supportingFilesToGenerate>
-
-        <templateDirectory>
-            src/main/resources/templates
-        </templateDirectory>
-
+        
         <configOptions>
             <library>spring-boot</library>
             <java8>true</java8>
