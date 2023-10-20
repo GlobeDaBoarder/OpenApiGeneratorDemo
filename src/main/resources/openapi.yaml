@@ -16,6 +16,7 @@ paths:
     get:
       summary: Get all pets
       operationId: getAllPets
+      description: Get all pets
       responses:
         '200':
           description: OK
@@ -28,6 +29,7 @@ paths:
     post:
       summary: Create a pet
       operationId: createPet
+      description: Create a pet
       requestBody:
         description: Pet object that needs to be added to the store
         required: true
@@ -72,6 +74,7 @@ components:
   schemas:
     Pet:
       type: object
+      description: Pet object
       properties:
         name:
           type: string
